@@ -2,11 +2,18 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "RaspiSampleAccountCustomFields",
+      "versionName": "ver 1.0.0",
+      "versionNumber": "1.0.0.NEXT"
     }
   ],
   "name": "sample-account-custom-fields",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
+  "sourceApiVersion": "52.0",
+  "packageAliases": {
+    "RaspiSampleAccountCustomFields": "0Ho1i000000CaZGCA0",
+    "RaspiSampleAccountCustomFields@1.0.0.1": "04t1i0000010etEAAQ"
+  }
 }
