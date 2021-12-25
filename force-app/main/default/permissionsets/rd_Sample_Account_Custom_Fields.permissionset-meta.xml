@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description
+  >Sample Account Custom Fields Permission set from Unlocked Package</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.rd_sample_Awesome_Text_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sample Account Custom Fields</label>
+</PermissionSet>
